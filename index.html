@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<html lang="zxx">
+
+<head>
+  <title>Documentation by "ANBARA Ayoub"</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
+    rel="stylesheet">
+  <style>
+    a {
+      color: #0e8bcb'
+
+    }
+  </style>
+</head>
+
+<body>
+  <section id="header">
+    <header> <span class="image avatar"><img src="images/app_icon.png" alt="" /></span>
+      <h4 id="logo">Medical Office Application</h4>
+    </header>
+    <nav id="nav">
+      <ul>
+        <li><a href="#technologies" class="active"><i class="fa fa-hand-o-right"></i> Which Technologies were used?</a>
+        </li>
+        <li><a href="#thingsnotused"><i class="fa fa-hand-o-right"></i> Which things I haven't used yet?</a>
+        </li>
+
+        <li><a href="#specifications"><i class="fa fa-hand-o-right"></i> What is The Specifications for this
+            applications?</a></li>
+
+
+        <li><a href="#aboutme"><i class="fa fa-hand-o-right"></i> Who is the developer?</a></li>
+
+      </ul>
+    </nav>
+  </section>
+  <div id="wrapper">
+    <div id="main">
+      <section id="one">
+        <div class="container">
+          <header class="major">
+            <h2>Medical Office Application Documentation (Web+Mobile)</h2>
+          </header>
+          <div class="borderTop">
+            <div class="span-6 colborder info prepend-1">
+              <p class="prepend-top"> <strong>Created: 31 Dec 2020<br>
+                  <!-- Company:- Anbara - morocco<br> -->
+                  Contact:<span style='color:#0e8bcb'>ayoub1996anbara@gmail.com</span> </strong> </p>
+            </div>
+            <div class="span-12 last">
+              <p class="prepend-top append-0">
+                <span style='color:#cb2a0e'>the application is underway in the development phase,</span>
+                if you have any questions, remarks, suggestions, you encounter any bugs, please send me email
+                <a href="mailto:ayoub1996anbara@gmail.com" target="_blank">ayoub1996anbara@gmail.com</a>.
+              </p>
+            </div>
+          </div>
+          <div class="section_bdr"></div>
+          <section id="technologies">
+            <div class="container"> <br>
+              <h2>Which Technologies were used?</h2>
+              <span class="lightbox"> <img src="images/angular_ionic_spring.png" alt="angular_ionic_spring"
+                  width="90%" /> </span>
+              <br>
+              <ul>
+                <li>
+                  Backend: <b>Spring Boot:</b>
+                </li>
+                <p>Java- JPA(hibernate)-Maven- Swagger-JWT, MySQL ...</p>
+                <p>Documentation api (swagger2): <a href="http://207.154.225.245:8080/v2/swagger-ui/"
+                    style='color:#0e8bcb' target="_blank">link <i class="fa fa-external-link"
+                      aria-hidden="true"></i></a></p>
+                <li>
+                  FrontEnd: <b>Angular</b>
+                  <a target="_blank" href="http://medical-app.surge.sh/#/dashboard" style='color:#0e8bcb'>
+                    demo <i class="fa fa-external-link" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <p>Typescript - HTML5, CSS3, Bootstrap/Angular Material ...</p>
+                <li>Mobile: <b>Ionic</b></li>
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=medical.office.app"
+                  style='color:#0e8bcb'>
+                  demo on playstore <i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
+                <li>Others: </li>
+                <p>Git, UML</p>
+              </ul>
+
+              <div class="section_bdr"></div>
+            </div>
+          </section>
+          <section id="thingsnotused">
+            <div class="container"> <br>
+              <h2>Which things I haven't used yet?</h2>
+              <ul class="feature_list">
+                <li>Unit Test</li>
+                <li>Docker</li>
+                <li>java doc</li>
+                <li>Others: </li>
+                <p>
+                  sonar- lequibase- show error and messages to user- displaying loading until getting data
+                </p>
+              </ul>
+
+              <div class="section_bdr"></div>
+            </div>
+          </section>
+
+          <section id="specifications">
+            <div class="container"> <br>
+              <h2>What is The Specifications for this applications? </h2>
+              <h4>In Frensh:</h4>
+              <p>I have already written the specifications of the Medical Office Application in French,
+                <a target="_blank" href="https://github.com/ayoub96anbara/cahier-de-charge-pfe" style='color:#0e8bcb'>
+                  link the specifications <i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
+              <h4>In English:</h4>
+              </p>
+              <h5>Features:</h5>
+              <ul class="feature_list">
+                <li>Management and follow-up of the medical file( the consultations - Prescriptions- certificats)</li>
+                <li>Appointment management.</li>
+                <li>Management of Announcements (alert -...)</li>
+              </ul>
+              <h5>Identification of actors:</h5>
+
+              <ul>
+                <li>Doctor</li>
+                <ul>
+                  <li><b>Roles:</b> Management and follow-up of the medical file</li>
+                  <li><b>username:</b> doctor <b>password:</b> 12345678</li>
+                </ul>
+                <li>Secretary</li>
+                <ul>
+                  <li><b>Roles:</b> Management of appointment, consultations,Announcements</li>
+                  <li><b>username:</b> secretary <b>password:</b> 12345678</li>
+                </ul>
+                <li>Admin</li>
+                <ul>
+                  <li><b>Roles:</b> Roles of Doctor+Secretary</li>
+                  <li><b>username:</b> admin <b>password:</b> 12345678</li>
+                </ul>
+                <li>Patient</li>
+                <ul>
+                  <li><b>Roles:</b> the patient can use just a mobile application, to know her appointments, the announcements</li>
+                </ul>
+              </ul>
+              <span class="lightbox"><img src="images/dashbord_medicalApp.png" alt="dashbord medical App" /> </span>
+              <div class="section_bdr"></div>
+            </div>
+          </section>
+          <section id="aboutme">
+            <div class="container"> <br>
+              <h2>Who is the developer?</h2>
+              <img src="images/ayoub_anbara.jpg" alt="Avatar" style="border-radius: 50%; height: 100px; width: 100px;">
+              <p>
+                i'm Ayoub Anbara, I'm Full Stack Developer (Java J2E/Spring - Angular - Android(native+ionic)),
+                <br>
+                <a target="_blank" href="https://github.com/ayoub96anbara" style='color:#0e8bcb'>
+                  my Github account <i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
+              </p>
+            </div>
+          </section>
+
+
+          <!-- <div class="section_bdr"></div>
+          <hr> -->
+        
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <section id="footer">
+        <div class="container">
+          <ul class="copyright">
+            <li>
+              <h3><span style="color:#0e8bcb;font-style:italic">ANBARA </span> <span
+                  style="color:#79b800;font-style:italic">Ayoub</span></h3>
+            </li>
+            
+          </ul>
+          <div class="social_icon">
+            <ul class="icons">
+              <li><a href="https://www.linkedin.com/in/ayoub-anbara-2372aa179/" target="_blank" class="icon fa-linkedin"><span
+                    class="label">linkedin</span></a></li>
+              <li><a href="emailto:ayoub1996anbara@gmail.com" target="_blank" class="icon fa fa-google-plus"><span
+                    class="label">Email</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    </section>
+  </div>
+  </div>
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollzer.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/skel.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          $('.scrollup').fadeIn();
+        } else {
+          $('.scrollup').fadeOut();
+        }
+      });
+      $('.scrollup').click(function () {
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+      });
+    });
+  </script>
+  <script src="https://use.fontawesome.com/7309bcf1e9.js"></script>
+  <div><a href="#" class="scrollup">Scroll</a></div>
+</body>
+
+</html>
