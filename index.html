@@ -8,17 +8,13 @@
   <link rel="stylesheet" href="assets/css/main.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i"
     rel="stylesheet">
-  <style>
-    a {
-      color: #0e8bcb'
-
-    }
-  </style>
+    <link href="assets/css/fotorama.css" rel="stylesheet">
 </head>
 
 <body>
   <section id="header">
-    <header> <span class="image avatar"><img src="images/app_icon.png" alt="" /></span>
+    <header> 
+      <span class="image avatar"><img src="images/app_icon.png" alt="" /></span>
       <h4 id="logo">Medical Office Application</h4>
     </header>
     <nav id="nav">
@@ -148,7 +144,20 @@
                   <li><b>Roles:</b> the patient can use just a mobile application, to know her appointments, the announcements</li>
                 </ul>
               </ul>
-              <span class="lightbox"><img src="images/dashbord_medicalApp.png" alt="dashbord medical App" /> </span>
+              <span class="lightbox">
+                <div class="fotorama"  data-autoplay="1500" data-nav="thumbs" 
+                data-allowfullscreen="native"
+                >
+                  <img src="images/dashbord_medicalApp.png" alt="dashbord medical App" />
+                  <img src="images/web-1.png" alt="dashbord medical App" />
+                  <img src="images/web2.png" alt="dashbord medical App" />
+                  <img src="images/web3.png" alt="dashbord medical App" />
+                  <img src="images/web4.png" alt="dashbord medical App" />
+                  <img src="https://play-lh.googleusercontent.com/mrajNCGKVVfBkUKbq8Olq9iSIrvaeSV-E9kFKBmo-9mhmz7qZpw9LkpCqXbn8xygr1U=w1528-h801-rw" alt="dashbord medical App" />
+    
+                </div>
+                
+              </span>
               <div class="section_bdr"></div>
             </div>
           </section>
@@ -204,6 +213,10 @@
   <script src="assets/js/skel.min.js"></script>
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
+
+
+  <script src="assets/js/fotorama.js"></script>
+
   <script>
     $(document).ready(function () {
       $(window).scroll(function () {
