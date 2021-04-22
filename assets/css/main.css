@@ -2082,7 +2082,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	background-size: cover;
 	content: '';
 	display: block;
-	height: 172px;
+	height: 0px;
 	width: 100%;
 }
 /* Footer */
